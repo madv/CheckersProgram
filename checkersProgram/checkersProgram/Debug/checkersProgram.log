@@ -1,0 +1,6 @@
+﻿  board.cpp
+  checker.cpp
+  Source.cpp
+  Generating Code...
+D:\Programming\Programs\C++\checkersProgram\checkersProgram\board.cpp(16,28): warning C4018:  '<': signed/unsigned mismatch
+  checkersProgram.vcxproj -> D:\Programming\Programs\C++\checkersProgram\Debug\checkersProgram.exe
