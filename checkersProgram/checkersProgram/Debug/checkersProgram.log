@@ -1,6 +1,4 @@
 ﻿  board.cpp
-  checker.cpp
-  Source.cpp
-  Generating Code...
-D:\Programming\Programs\C++\checkersProgram\checkersProgram\board.cpp(16,28): warning C4018:  '<': signed/unsigned mismatch
-  checkersProgram.vcxproj -> D:\Programming\Programs\C++\checkersProgram\Debug\checkersProgram.exe
+H:\Directory\Main\Computer Programming\Source Control\GitHub\CheckersProgram\checkersProgram\checkersProgram\board.cpp(16,28): warning C4018:  '<': signed/unsigned mismatch
+  LINK : H:\Directory\Main\Computer Programming\Source Control\GitHub\CheckersProgram\checkersProgram\Debug\checkersProgram.exe not found or not built by the last incremental link; performing full link
+  checkersProgram.vcxproj -> H:\Directory\Main\Computer Programming\Source Control\GitHub\CheckersProgram\checkersProgram\Debug\checkersProgram.exe
