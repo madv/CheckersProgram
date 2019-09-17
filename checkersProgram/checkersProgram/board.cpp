@@ -23,13 +23,10 @@ void board::reset()
 	{
 		for (int emptyCol = 0; emptyCol < 8; emptyCol++)
 		{
-			the_board[emptyRow][emptyCol] = (new checker(' ', false));
+			the_board[emptyRow][emptyCol] = (new checker(' ', false, emptyRow, emptyCol));
 
 		}
 	}
-
-	//The Error has something to do with push_back?...yes
-
 
 	//Set the correct part of the board with red pieces
 	for (int rowRed1 = 0; rowRed1 < 3; rowRed1 += 2)
@@ -77,4 +74,10 @@ void board::print()
 		cout << "|" << endl;
 	}
 	cout << "----+---+---+---+---+---+---+----" << endl;
+}
+
+void board::move(checker& Checker,int x, int y)
+{
+	Checker.setXLoc(x);
+	Checker.setYLoc(y);
 }

@@ -10,6 +10,7 @@ public:
 	~board();
 	void reset();
 	void print();
+	void move(checker& Checker, int x, int y);
 private:
 	vector<vector<checker*>> the_board;
 };
